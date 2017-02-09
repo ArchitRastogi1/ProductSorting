@@ -1,5 +1,9 @@
 This project is based on slim microframework of PHP.
 
+Controller for apis is in file -  app/task/Task.php
+Service - app/Services/TaskService.php
+Validator - app/Validators/TaskDataValidator.php
+
 
 Steps - 
 1 - Take clone of this project.
