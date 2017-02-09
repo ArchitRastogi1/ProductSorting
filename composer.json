@@ -1,0 +1,17 @@
+{
+    "repositories": {
+        "packagist": { "url": "https://packagist.org", "type": "composer" }
+    },
+    "autoload": {
+        "psr-4": {
+            "Services\\": "app/Services",
+	    "Validators\\":"app/Validators"
+        }
+    },
+    "require": {
+        "slim/slim": "2.*",
+        "slim/views": "0.1.*",
+        "twig/twig": "1.18.*"
+    }
+}
+
